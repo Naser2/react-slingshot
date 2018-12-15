@@ -1,5 +1,6 @@
 /* eslint-disable import/no-named-as-default */
 import { NavLink, Route, Switch } from "react-router-dom";
+import "babel-es6-polyfill";
 
 import AboutPage from "./AboutPage";
 import FuelSavingsPage from "./containers/FuelSavingsPage";
